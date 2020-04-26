@@ -27,5 +27,8 @@ public class QuestionRepository {
         return questions.get(queNum);
     }
 
+    public int size(){
+        return questions.size();
+    }
 
 }
